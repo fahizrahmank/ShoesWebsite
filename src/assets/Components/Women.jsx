@@ -24,7 +24,7 @@ const {product}=dataa
       <div className='d-flex-column container'> 
     <div className='row gap-5'> 
           
-      {data .map((item) => (
+      {data.map((item) => (
         <CardGroup className='card-group' key={item.id}>
           <Card>
             <Card.Img className='image' variant='top' src={item.img} />

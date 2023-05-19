@@ -27,7 +27,7 @@ const nav=useNavigate()
     <div className='d-flex-column container'> 
     <div className='row gap-5'> 
      
-      {data .map((item) => (
+      {data.map((item) => (
         <CardGroup key={item.id} className='card-group'>
           <Card>
             <Card.Img className='image' variant='top' src={item.img} />
